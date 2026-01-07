@@ -10,9 +10,9 @@ const {
 } = require('../controllers/orderController');
 
 // Routes
-router.get('/', getAllOrders);
-router.get('/:id', getOrderById);
 router.get('/customer/:customerId', getOrdersByCustomer);
+router.get('/:id', getOrderById);
+router.get('/', getAllOrders);
 router.post('/', createOrder);
 router.put('/:id', updateOrder);
 router.delete('/:id', deleteOrder);

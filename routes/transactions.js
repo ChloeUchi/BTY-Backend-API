@@ -11,10 +11,10 @@ const {
 } = require('../controllers/transactionController');
 
 // Routes
-router.get('/', getAllTransactions);
-router.get('/:id', getTransactionById);
 router.get('/customer/:customerId', getTransactionsByCustomer);
 router.get('/order/:orderId', getTransactionsByOrder);
+router.get('/:id', getTransactionById);
+router.get('/', getAllTransactions);
 router.post('/', createTransaction);
 router.put('/:id', updateTransaction);
 router.delete('/:id', deleteTransaction);
