@@ -10,9 +10,13 @@ const options = {
     },
     servers: [
       {
-        url: 'http://localhost:5000', // URL ของ Server เรา
+        url: 'http://localhost:5000',
         description: 'Local server',
       },
+      {
+        url: 'https://bty-backend-api.onrender.com',
+        description: 'Production Server (Render)',
+      }
     ],
   },
   // ให้มันไปอ่าน Comment ในไฟล์ Routes ทั้งหมด

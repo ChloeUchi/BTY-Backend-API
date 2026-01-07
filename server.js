@@ -28,7 +28,7 @@ app.use("/api/transactions", require("./routes/transactionRoutes"));
 app.use(errorHandler);
 
 app.get("/", (req, res) => {
-  res.redirect("/api-docs/#/Orders/get_api_orders");
+  res.redirect("/api-docs/");
 });
 const PORT = process.env.PORT || 5000;
 // app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
