@@ -113,12 +113,11 @@ BTY-Backend-API/
 ## Technologies Used
 
 - **Node.js** - JavaScript runtime
-- **Express.js** - Web application framework
+- **Express.js** - Web application framework (with built-in body parsing)
 - **MongoDB** - NoSQL database
 - **Mongoose** - MongoDB object modeling
 - **dotenv** - Environment variable management
 - **cors** - Cross-Origin Resource Sharing
-- **body-parser** - Request body parsing
 
 ## License
 
